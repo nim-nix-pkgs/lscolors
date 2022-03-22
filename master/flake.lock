@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647920574,
+        "narHash": "sha256-D3ob5QykELhyNcTnISOkjEzLlgXltwON8Ucrz5cpiQI=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "bfb46a1f762002f07f9d81d93dacd544c6890623",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "src-lscolors-master": "src-lscolors-master"
+      }
+    },
+    "src-lscolors-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1585304003,
+        "narHash": "sha256-/K8LEeTBXYgiBAhmx6olQEXo+6VL2IrfJmq1bjv0WB4=",
+        "owner": "joachimschmidt557",
+        "repo": "nim-lscolors",
+        "rev": "cc6b40f10726fc5cf9497780eb9a127ab35de772",
+        "type": "github"
+      },
+      "original": {
+        "owner": "joachimschmidt557",
+        "ref": "refs/heads/master",
+        "repo": "nim-lscolors",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
