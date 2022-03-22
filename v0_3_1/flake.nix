@@ -9,7 +9,7 @@
   
   inputs.src-lscolors-v0_3_1.flake = false;
   inputs.src-lscolors-v0_3_1.owner = "joachimschmidt557";
-  inputs.src-lscolors-v0_3_1.ref   = "refs/tags/v0.3.1";
+  inputs.src-lscolors-v0_3_1.ref   = "v0_3_1";
   inputs.src-lscolors-v0_3_1.repo  = "nim-lscolors";
   inputs.src-lscolors-v0_3_1.type  = "github";
   
