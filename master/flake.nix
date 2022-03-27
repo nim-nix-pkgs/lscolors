@@ -11,6 +11,7 @@
   inputs.src-lscolors-master.ref   = "refs/heads/master";
   inputs.src-lscolors-master.owner = "joachimschmidt557";
   inputs.src-lscolors-master.repo  = "nim-lscolors";
+  inputs.src-lscolors-master.dir   = "";
   inputs.src-lscolors-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
